@@ -1,0 +1,29 @@
+{
+  "name": "node-express",
+  "version": "1.0.0",
+  "description": "Node server example with Express and Body parser",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alessiofiore/node-express.git"
+  },
+  "keywords": [
+    "node",
+    "express",
+    "body",
+    "parser"
+  ],
+  "author": "Alessio Fiore",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alessiofiore/node-express/issues"
+  },
+  "homepage": "https://github.com/alessiofiore/node-express#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1"
+  }
+}
