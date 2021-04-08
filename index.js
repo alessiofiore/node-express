@@ -15,6 +15,11 @@ app.post('/', function (req, res) {
   res.send('OK');
 });
 
-app.listen(80, function () {
-  console.log('Example app listening on port 80!');
+app.get('/error', function (req, res) {
+  console.log('GET error received');
+  res.status(500).send('Internal Server Error');
+});
+
+app.listen(9999, function () {
+  console.log('Example app listening on port 9999!');
 });
